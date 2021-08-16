@@ -1,5 +1,6 @@
 ## What
-[K-2](pics/k2-chr.png) is an autonomous acoustic recorder for use in
+![K-2 recorder (long duration version) with single I2S mic](pics/k2-chr-oa.jpg)
+K-2 is an autonomous acoustic recorder for use in
 wildlife conservation.  It supports source localisation (using
 multiple recorders) in 2 ways, by recording in stereo or
 by accurately timestamping recorded files.  In both cases,
@@ -52,7 +53,7 @@ be FAT32 formatted.  32G and smaller micro SD cards come formatted
 this way by default, so these are ready to use.  64G and larger
 cards unfortunately come formatted as EXFAT, so these must be
 reformatted as FAT32.
-
+![K-2 board with parts labelled.](pics/k2-chr.png)
 ### The LEDs
 If there is no LED activity at all, either the K-2 is powered
 off (power switch is off), or it is sleeping.
@@ -61,7 +62,8 @@ off (power switch is off), or it is sleeping.
 A flickering red LED indicates life, and that diagnostics are being
 written to the console.
 
-The panic heartbeat consists of one red flash/second
+The [panic heartbeat](https://youtu.be/zevDJyfaAJU)
+consists of one red flash/second
 indefinitely.  This indicates a permanent error and the K-2
 cannot record.  To see what this heartbeat looks like, you can
 power on the K-2 with the GPS, external RTC, and SD card removed.
@@ -69,7 +71,7 @@ The K-2 responds to this error state with a panic heartbeat.
 
 If the K-2 is operating properly, the heartbeat will be clearly slower
 than the panic rate, and proportional to the
-[recording](https://youtu.be/v2CkfBO7Fho)
+[recording](https://youtu.be/IbMdMJasuKo)
 sample rate, the slowest being around 30s/flash, and the
 fastest around 2s/flash.
 
