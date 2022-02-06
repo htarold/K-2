@@ -36,16 +36,20 @@ to view the diagnostics and follow along, but the LEDs tell the
 same story.
 
 1. Unplug the GPS cable, and make sure the SD card slot is *empty*.
-   The [DS3231 external RTC module](#ds3231-external-rtc-module) should remain attached.
+   The [DS3231 external RTC module](#ds3231-external-rtc-module)
+   may remain attached.
 1. Power on the K-2.  In this configuration, K-2 will go into
-   **reformat mode**.
-1. You can see the [green LED](#connectors-and-pinouts) light up (indicating SD access),
-   then go off when K-2 realises there is no SD card.
-   The [blue LED](#connectors-and-pintouts) then turns on and stays on, which is what K-2
-   does when waiting for you to do something.
+   **reformat mode**.  Follow along on the
+   [video](https://youtu.be/8nQzGdJ66TU).
+1. You can see the [green LED](#connectors-and-pinouts) light up
+   (indicating SD access), then go off when K-2 realises there is
+   no SD card.
+   The [blue LED](#connectors-and-pintouts) then turns on and stays on,
+   which is what K-2 does when waiting for you to do something.
 1. So insert a [micro SD card](#micro-sd-card-and-reformatting).  This
    card will be reformatted and all existing data on it will be deleted.
-1. Press and release the KEY button [next to the blue LED](#connectors-and-pinouts) on
+1. Press and release the KEY button
+   [next to the blue LED](#connectors-and-pinouts) on
    the stamp.  The blue LED turns off and the green one
    turns on to indicate that reformatting has begun.
 1. In a minute or so the green LED goes off and blue goes on
@@ -59,7 +63,9 @@ same story.
    `MYSITE01.CFG`, uncommenting it and putting in the actual
    date and time.  Save the changes and replace the SD card in
    the K-2.
-1. **Record for real!** Power on the K-2, ensuring the DS3231 external RTC is attached.
+1. **Record for real!** Power on the K-2, ensuring the DS3231
+   external RTC is attached.  Follow along on the
+   [video](https://youtu.be/I1SLpj4b0ag).
 1. This time wait for the blue led to flash on for one second,
    after which K-2 board goes to sleep (nothing is lit).
    This indicates that startup has been successful and the K-2
