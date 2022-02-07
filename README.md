@@ -65,7 +65,7 @@ same story.
    the K-2.
 1. **Record for real!** Power on the K-2, ensuring the DS3231
    external RTC is attached.  Follow along on the
-   [video](https://youtu.be/I1SLpj4b0ag).
+   [video](https://youtu.be/nlQlReBRzbw).
 1. This time wait for the blue led to flash on for one second,
    after which K-2 board goes to sleep (nothing is lit).
    This indicates that startup has been successful and the K-2
